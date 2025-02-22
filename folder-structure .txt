@@ -1,0 +1,87 @@
+ur-electify-frontend/
+├── src/
+│   ├── components/
+│   │   ├── ui/
+│   │   │   ├── Button.tsx
+│   │   │   ├── Input.tsx
+│   │   │   ├── Select.tsx
+│   │   │   ├── Card.tsx
+│   │   │   └── Modal.tsx
+│   │   └── common/
+│   │       ├── Navbar.tsx
+│   │       ├── Sidebar.tsx
+│   │       ├── Footer.tsx
+│   │       ├── LoadingSpinner.tsx
+│   │       └── PrivateRoute.tsx
+│   ├── features/
+│   │   ├── auth/
+│   │   │   ├── authSlice.ts
+│   │   │   ├── components/
+│   │   │   │   ├── LoginForm.tsx
+│   │   │   │   └── RegisterForm.tsx
+│   │   │   └── types.ts
+│   │   ├── elections/
+│   │   │   ├── electionSlice.ts
+│   │   │   ├── components/
+│   │   │   │   ├── ElectionList.tsx
+│   │   │   │   ├── ElectionForm.tsx
+│   │   │   │   └── ElectionCard.tsx
+│   │   │   └── types.ts
+│   │   ├── candidates/
+│   │   │   ├── candidateSlice.ts
+│   │   │   ├── components/
+│   │   │   │   ├── CandidateList.tsx
+│   │   │   │   ├── CandidateForm.tsx
+│   │   │   │   └── CandidateCard.tsx
+│   │   │   └── types.ts
+│   │   └── publications/
+│   │       ├── publicationSlice.ts
+│   │       ├── components/
+│   │       │   ├── PublicationList.tsx
+│   │       │   └── PublicationForm.tsx
+│   │       └── types.ts
+│   ├── layouts/
+│   │   ├── MainLayout.tsx
+│   │   ├── AdminLayout.tsx
+│   │   └── StudentLayout.tsx
+│   ├── pages/
+│   │   ├── Home.tsx
+│   │   ├── Login.tsx
+│   │   ├── Register.tsx
+│   │   ├── Dashboard/
+│   │   │   ├── Admin.tsx
+│   │   │   └── Student.tsx
+│   │   ├── Elections/
+│   │   │   ├── List.tsx
+│   │   │   ├── Create.tsx
+│   │   │   └── Details.tsx
+│   │   └── Results/
+│   │       ├── Current.tsx
+│   │       └── Archive.tsx
+│   ├── services/
+│   │   ├── api.ts
+│   │   ├── auth.service.ts
+│   │   ├── election.service.ts
+│   │   └── publication.service.ts
+│   ├── store/
+│   │   ├── index.ts
+│   │   └── hooks.ts
+│   ├── types/
+│   │   ├── index.ts
+│   │   ├── auth.ts
+│   │   └── election.ts
+│   ├── utils/
+│   │   ├── constants.ts
+│   │   ├── formatters.ts
+│   │   └── validators.ts
+│   ├── App.tsx
+│   ├── main.tsx
+│   └── index.css
+├── public/
+│   └── assets/
+├── .gitignore
+├── index.html
+├── package.json
+├── tsconfig.json
+├── vite.config.ts
+└── tailwind.config.js
