@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/png" href="/ur_logo.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <!-- Primary Meta Tags -->
+    <title>UR-Electify - University of Rwanda E-Voting System</title>
+    <meta name="title" content="UR-Electify - University of Rwanda E-Voting System">
+    <meta name="description" content="Secure and transparent electronic voting system for University of Rwanda student elections.">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://ur-electify.com/">
+    <meta property="og:title" content="UR-Electify - University of Rwanda E-Voting System">
+    <meta property="og:description" content="Secure and transparent electronic voting system for University of Rwanda student elections.">
+    <meta property="og:image" content="/ur_banner.png">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://ur-electify.com/">
+    <meta property="twitter:title" content="UR-Electify - University of Rwanda E-Voting System">
+    <meta property="twitter:description" content="Secure and transparent electronic voting system for University of Rwanda student elections.">
+    <meta property="twitter:image" content="/ur_banner.png">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Theme Color -->
+    <meta name="theme-color" content="#1E40AF">
+    
+    <!-- PWA Tags -->
+    <link rel="manifest" href="/manifest.json">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="application-name" content="UR-Electify">
+    <meta name="apple-mobile-web-app-title" content="UR-Electify">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    
+    <!-- iOS icons -->
+    <link rel="apple-touch-icon" href="/icons/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/icons/touch-icon-ipad.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/icons/touch-icon-iphone-retina.png">
+    <link rel="apple-touch-icon" sizes="167x167" href="/icons/touch-icon-ipad-retina.png">
+
+    <!-- Security Headers -->
+    <meta http-equiv="X-Content-Type-Options" content="nosniff">
+    <meta http-equiv="X-Frame-Options" content="DENY">
+    <meta http-equiv="Permissions-Policy" content="camera=(), microphone=(), geolocation=()">
+  </head>
+  <body class="font-inter antialiased bg-gray-50 dark:bg-gray-900">
+    <!-- No-script fallback -->
+    <noscript>
+      <div style="padding: 20px; text-align: center; font-family: system-ui, sans-serif;">
+        <img src="/ur_logo.png" alt="UR Logo" style="margin: 0 auto; width: 80px;">
+        <h1 style="margin-top: 20px; color: #1E40AF;">JavaScript Required</h1>
+        <p>We're sorry but UR-Electify doesn't work properly without JavaScript enabled. Please enable it to continue.</p>
+      </div>
+    </noscript>
+
+    <!-- Application root -->
+    <div id="root"></div>
+
+    <!-- Modal root for portals -->
+    <div id="modal-root"></div>
+
+    <!-- Application entry point -->
+    <script type="module" src="/src/main.tsx"></script>
+
+    <!-- Preload critical assets -->
+    <!-- <link rel="preload" as="image" href="/ur_logo.png">
+    <link rel="preload" as="image" href="/ur_banner.png"> -->
+  </body>
+</html>
